@@ -1,20 +1,42 @@
-# Simple-System-Monitor
-Simple System Monitor is a lightweight web application that displays real-time CPU and memory usage. Built using Python and Flask for the backend, and HTML/CSS for the frontend, it offers a simple interface for monitoring basic system metrics.
+# Simple System Monitor
+
+A lightweight web application for real-time monitoring of CPU and memory usage.
+
+## Features
+
+- **Real-Time Monitoring:** Display current CPU and memory usage.
+- **User-Friendly Interface:** Clean and intuitive web interface.
+
+## Technology Stack
+
+- **Backend:** Python, Flask
+- **Frontend:** HTML, CSS
+- **System Interaction:** psutil
 
 ## Installation
 
-1. Installiere die benötigten Pakete:
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/your-username/SimpleSystemMonitor.git
+    cd SimpleSystemMonitor
+    ```
+
+2. **Install Dependencies:**
 
     ```bash
     pip install -r requirements.txt
     ```
 
-2. Starte die Anwendung:
+3. **Run the Application:**
 
     ```bash
     python run.py
     ```
 
-## Nutzung
+4. **Access the Application:**
 
-Öffne deinen Webbrowser und gehe zu `http://localhost:5000`, um die Anwendung zu nutzen.
+    Open your web browser and navigate to `http://localhost:5000`.
+
+## File Structure
+
