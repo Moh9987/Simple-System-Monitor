@@ -1,1 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>System Monitor</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple System Monitor</h1>
+        <p>CPU Usage: {{ cpu_usage }}%</p>
+        <p>Memory Usage: {{ memory_info.percent }}%</p>
+    </div>
+</body>
+</html>
 
